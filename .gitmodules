@@ -1,4 +1,4 @@
-[submodule "src/FAST_LIO"]
+[submodule "src/ct_icp"]
         path = src/ct_icp
         url = https://github.com/jedeschaud/ct_icp.git
 [submodule "src/cpp_pubsub/src/3rdparty/LASzip"]
