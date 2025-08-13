@@ -1,9 +1,10 @@
 [submodule "src/ct_icp"]
         path = src/ct_icp
         url = https://github.com/jedeschaud/ct_icp.git
-[submodule "src/cpp_pubsub/src/3rdparty/LASzip"]
-	path = src/cpp_pubsub/src/3rdparty/LASzip
+[submodule "src/ct-icp-to-hdmapping/src/3rdparty/LASzip"]
+	path = src/ct-icp-to-hdmapping/src/3rdparty/LASzip
 	url = https://github.com/LASzip/LASzip.git
 [submodule "src/livox_ros_driver"]
         path = src/livox_ros_driver
         url = https://github.com/Livox-SDK/livox_ros_driver.git
+
