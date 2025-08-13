@@ -13,6 +13,10 @@ cd cmake-3.20.5
 make
 sudo make install
 ```
+## Clone and build
+
+
+
 ## Intended use 
 
 This small toolset allows to integrate SLAM solution provided by [ct-icp](https://github.com/jedeschaud/ct_icp/) with [HDMapping](https://github.com/MapsHD/HDMapping).
@@ -27,8 +31,27 @@ Clone the repo
 mkdir -p /test_ws/src
 cd /test_ws/src
 git clone https://github.com/marcinmatecki/ct-icp-to-hdmapping.git --recursive
+
+cd ct-icp-to-hdmapping/src/ct_icp
+mkdir .cmake-build-superbuild
+cd .cmake-build-superbuild
+cmake ../superbuild
+cmake --build . --config Release
+
 cd ..
-catkin_make
+mkdir cmake-build-release 
+cd  cmake-build-release
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake --build . --target install --config Release --parallel 12
+
+cd ..
+cd ros/roscore
+mkdir cmake-build-release && cd  cmake-build-release
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake --build . --target install --config Release --parallel 12
+
+cd /test_ws/
+catkin_make -DSUPERBUILD_INSTALL_DIR=<path-to-superbuild-install-dir>
 ```
 
 ## Usage - data SLAM:
