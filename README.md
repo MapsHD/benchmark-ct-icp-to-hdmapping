@@ -44,7 +44,7 @@ and start odometry:
 ```shell 
 cd /test_ws/
 source ./devel/setup.sh # adjust to used shell
-roslaunch ct_icp_odometry urban_loco_CAL.launch rosbag:=<<path_to_rosbag>
+roslaunch ct_icp_odometry urban_loco_CAL.launch rosbag:=<path_to_rosbag>
 ```
 
 ## Usage - conversion:
@@ -72,7 +72,7 @@ rosbag record /ct_icp/world_points /ct_icp/pose/odom -o {your_directory_for_the_
 ```shell
 cd /test_ws/
 source ./devel/setup.sh # adjust to used shell
-roslaunch ct_icp_odometry urban_loco_CAL.launch rosbag:=<<path_to_rosbag>
+roslaunch ct_icp_odometry urban_loco_CAL.launch rosbag:=<path_to_rosbag>
 ```
 
 ## During the record (if you want to stop recording earlier) / after finishing the bag:
