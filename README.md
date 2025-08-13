@@ -15,7 +15,7 @@ sudo make install
 ```
 ## Intended use 
 
-This small toolset allows to integrate SLAM solution provided by [ct-icp](https://github.com/PRBonn/ct-icp) with [HDMapping](https://github.com/MapsHD/HDMapping).
+This small toolset allows to integrate SLAM solution provided by [ct-icp](https://github.com/jedeschaud/ct_icp/) with [HDMapping](https://github.com/MapsHD/HDMapping).
 This repository contains ROS 1 workspace that :
   - submodule to tested revision of CT ICP
   - a converter that listens to topics advertised from odometry node and save data in format compatible with HDMapping.
