@@ -1,17 +1,18 @@
 # ct-icp-to-hdmaping
 
 ## Dependecies
-
+```shell
 sudo apt install nlohmann-json3-dev
-
+```
 ## For build
+```shell
 wget https://cmake.org/files/v3.20/cmake-3.20.5.tar.gz
 tar -zxvf cmake-3.20.5.tar.gz
 cd cmake-3.20.5
 ./bootstrap
 make
 sudo make install
-
+```
 ## Intended use 
 
 This small toolset allows to integrate SLAM solution provided by [ct-icp](https://github.com/PRBonn/ct-icp) with [HDMapping](https://github.com/MapsHD/HDMapping).
