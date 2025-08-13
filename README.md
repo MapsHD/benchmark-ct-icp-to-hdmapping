@@ -13,9 +13,6 @@ cd cmake-3.20.5
 make
 sudo make install
 ```
-## Clone and build
-
-
 
 ## Intended use 
 
