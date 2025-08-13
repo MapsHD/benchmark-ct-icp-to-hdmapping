@@ -23,7 +23,6 @@ This repository contains ROS 1 workspace that :
 
 ## Building
 
-Clone the repo
 ```shell
 mkdir -p /test_ws/src
 cd /test_ws/src
