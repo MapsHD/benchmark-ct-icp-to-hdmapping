@@ -3,6 +3,7 @@
 ## Dependecies
 ```shell
 sudo apt install nlohmann-json3-dev
+sudo apt install libssl-dev
 ```
 ## For build
 ```shell
