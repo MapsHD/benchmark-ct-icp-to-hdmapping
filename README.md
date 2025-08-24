@@ -87,7 +87,7 @@ Then, download **sequence2**.
 rosbag record /ct_icp/world_points /ct_icp/pose/odom -o {your_directory_for_the_recorded_bag}
 ```
 
-## CT Launch:
+## CT-ICP Launch:
 
 ```shell
 cd /test_ws/
