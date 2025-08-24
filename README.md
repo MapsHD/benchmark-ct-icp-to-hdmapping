@@ -1,4 +1,4 @@
-# ct-icp-to-hdmaping
+# CT-ICP converter
 
 ## Dependecies
 ```shell
